@@ -251,6 +251,7 @@ input, select, textarea {
 
 		.row.gtr-uniform > * > :last-child {
 			margin-bottom: 0;
+			border-color: #C7998C;
 		}
 
 		.row.aln-left {
@@ -2380,6 +2381,7 @@ input, select, textarea {
 
 		ul.feature-icons li {
 			text-decoration: none;
+			font-size: 1.25em;
 			display: inline-block;
 			margin: 0 0 1.6875em 0;
 			padding: 0.35em 0 0 3.5em;
@@ -2402,9 +2404,9 @@ input, select, textarea {
 			}
 
 			ul.feature-icons li:before {
-				background: #4acaa8;
+				background: #fff;
 				border-radius: 100%;
-				color: #ffffff;
+				color: #000;
 				display: block;
 				height: 2.5em;
 				left: 0;
@@ -2435,9 +2437,24 @@ input, select, textarea {
 
 			ul.icons li .icon:before {
 				font-size: 1.25em;
-				color:#F2E8DB
+				color:#FCF5EC
 			}
-
+	i {
+		font-size: 1.75em;
+		margin-right: 3%;
+	}
+	#code-icon {
+		color: #F44336;
+	}
+	#js-icon {
+		color:  #FDD835;
+	}
+	#node-icon {
+		color: #4CAF50;
+	}
+	#react-icon {
+		color: #26C6DA;
+	}
 /* Table */
 
 	.table-wrapper {
@@ -2809,7 +2826,7 @@ input, select, textarea {
 					}
 
 						#header > nav ul li a.active {
-							background: #F2E8DB;
+							background: #FCF5EC;
 							color: #B76E22!important;
 							font-weight: bold;
 						}
@@ -2828,8 +2845,8 @@ input, select, textarea {
 /* Main */
 
 	#main > section {
-		border-top: solid 6px #f4f4f4;
-		background-color:#F2E8DB;
+		border-top: solid 6px #fff;
+		background-color:#FCF5EC;
 	}
 
 		#main > section > .container {
@@ -3042,6 +3059,7 @@ input, select, textarea {
 
 				#titleBar .title {
 					color: #fff;
+					background: #1F6566;
 					display: block;
 					font-weight: 700;
 					height: 44px;
@@ -3081,7 +3099,7 @@ input, select, textarea {
 					}
 
 					#titleBar .toggle:before {
-						background: #4acaa8;
+						background: #1F6566;
 						color: #ffffff;
 						content: '\f0c9';
 						display: block;
